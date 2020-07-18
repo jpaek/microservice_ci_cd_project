@@ -1,0 +1,8 @@
+(.devops) Jaes-MacBook-Pro:project-ml-microservice-kubernetes jaepaek$ ./run_kubernetes.sh 
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+deployment.apps/project-ml-microservice created
+NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
+project-ml-microservice   1/1     1            1           18s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
